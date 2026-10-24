@@ -72,7 +72,7 @@ def main():
     base = []
     for domain, name in CUSTOMERS.items():
         for _ in range(rng.randint(40, 70)):
-            ship = date(2026, 10, 1) - timedelta(days=rng.randint(10, 6 * 365))
+            ship = date(2026, 10, 1) - timedelta(days=rng.randint(10, 30 * 30) if rng.random() < 0.85 else rng.randint(36 * 30, 6 * 365))
             base.append({"serial": serial(rng), "model": rng.choice(MODELS), "customer_domain": domain,
                          "customer": name, "ship_date": ship.isoformat(), "warranty_months": rng.choice([36, 36, 60])})
     by_dom = {}

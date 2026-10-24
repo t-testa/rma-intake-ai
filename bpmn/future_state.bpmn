@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="defs_rma_future" targetNamespace="http://bpmn.io/schema/bpmn">
+  <bpmn:process id="rma_future" name="RMA intake, future state" isExecutable="false">
+    <bpmn:startEvent id="start" name="Support email arrives" />
+    <bpmn:serviceTask id="agent" name="AI agent reads the email (EN or FR)" />
+    <bpmn:businessRuleTask id="check" name="Check serial, owner and warranty in ERP (read-only)" />
+    <bpmn:exclusiveGateway id="g_route" name="Route" />
+    <bpmn:userTask id="safety" name="Engineering on-call responds (human)" />
+    <bpmn:endEvent id="end_safety" name="Escalated" />
+    <bpmn:serviceTask id="draft" name="Draft RMA in ERP" />
+    <bpmn:userTask id="approve" name="Approve RMA, one click (RMA desk)" />
+    <bpmn:serviceTask id="email" name="Email RMA number" />
+    <bpmn:endEvent id="end" name="RMA issued" />
+    <bpmn:serviceTask id="ask" name="Send serial request in the customer's language" />
+    <bpmn:endEvent id="end_ask" name="Reply re-enters as a new email" />
+    <bpmn:userTask id="review" name="RMA desk reviews exception (human)" />
+    <bpmn:endEvent id="end_review" name="Handled by desk" />
+    <bpmn:serviceTask id="forward" name="Forward to sales or billing" />
+    <bpmn:endEvent id="end_fwd" name="Forwarded" />
+    <bpmn:sequenceFlow id="flow_0" name="" sourceRef="start" targetRef="agent" />
+    <bpmn:sequenceFlow id="flow_1" name="" sourceRef="agent" targetRef="check" />
+    <bpmn:sequenceFlow id="flow_2" name="" sourceRef="check" targetRef="g_route" />
+    <bpmn:sequenceFlow id="flow_3" name="safety language" sourceRef="g_route" targetRef="safety" />
+    <bpmn:sequenceFlow id="flow_4" name="" sourceRef="safety" targetRef="end_safety" />
+    <bpmn:sequenceFlow id="flow_5" name="clean" sourceRef="g_route" targetRef="draft" />
+    <bpmn:sequenceFlow id="flow_6" name="" sourceRef="draft" targetRef="approve" />
+    <bpmn:sequenceFlow id="flow_7" name="" sourceRef="approve" targetRef="email" />
+    <bpmn:sequenceFlow id="flow_8" name="" sourceRef="email" targetRef="end" />
+    <bpmn:sequenceFlow id="flow_9" name="no serial" sourceRef="g_route" targetRef="ask" />
+    <bpmn:sequenceFlow id="flow_10" name="" sourceRef="ask" targetRef="end_ask" />
+    <bpmn:sequenceFlow id="flow_11" name="exception or low confidence" sourceRef="g_route" targetRef="review" />
+    <bpmn:sequenceFlow id="flow_12" name="" sourceRef="review" targetRef="end_review" />
+    <bpmn:sequenceFlow id="flow_13" name="not an RMA" sourceRef="g_route" targetRef="forward" />
+    <bpmn:sequenceFlow id="flow_14" name="" sourceRef="forward" targetRef="end_fwd" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="diagram_rma_future">
+    <bpmndi:BPMNPlane id="plane_rma_future" bpmnElement="rma_future">
+      <bpmndi:BPMNShape id="start_di" bpmnElement="start"><dc:Bounds x="87" y="203" width="36" height="36" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="agent_di" bpmnElement="agent"><dc:Bounds x="215" y="185" width="130" height="72" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="check_di" bpmnElement="check"><dc:Bounds x="390" y="185" width="130" height="72" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="g_route_di" bpmnElement="g_route" isMarkerVisible="true"><dc:Bounds x="605" y="196" width="50" height="50" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="safety_di" bpmnElement="safety"><dc:Bounds x="740" y="70" width="130" height="72" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="end_safety_di" bpmnElement="end_safety"><dc:Bounds x="962" y="88" width="36" height="36" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="draft_di" bpmnElement="draft"><dc:Bounds x="740" y="185" width="130" height="72" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="approve_di" bpmnElement="approve"><dc:Bounds x="915" y="185" width="130" height="72" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="email_di" bpmnElement="email"><dc:Bounds x="1090" y="185" width="130" height="72" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="end_di" bpmnElement="end"><dc:Bounds x="1312" y="203" width="36" height="36" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="ask_di" bpmnElement="ask"><dc:Bounds x="740" y="300" width="130" height="72" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="end_ask_di" bpmnElement="end_ask"><dc:Bounds x="962" y="318" width="36" height="36" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="review_di" bpmnElement="review"><dc:Bounds x="740" y="415" width="130" height="72" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="end_review_di" bpmnElement="end_review"><dc:Bounds x="962" y="433" width="36" height="36" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="forward_di" bpmnElement="forward"><dc:Bounds x="740" y="530" width="130" height="72" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="end_fwd_di" bpmnElement="end_fwd"><dc:Bounds x="962" y="548" width="36" height="36" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="flow_0_di" bpmnElement="flow_0"><di:waypoint x="123" y="221" /><di:waypoint x="215" y="221" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="flow_1_di" bpmnElement="flow_1"><di:waypoint x="345" y="221" /><di:waypoint x="390" y="221" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="flow_2_di" bpmnElement="flow_2"><di:waypoint x="520" y="221" /><di:waypoint x="605" y="221" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="flow_3_di" bpmnElement="flow_3"><di:waypoint x="630" y="196" /><di:waypoint x="630" y="106" /><di:waypoint x="740" y="106" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="flow_4_di" bpmnElement="flow_4"><di:waypoint x="870" y="106" /><di:waypoint x="962" y="106" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="flow_5_di" bpmnElement="flow_5"><di:waypoint x="655" y="221" /><di:waypoint x="740" y="221" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="flow_6_di" bpmnElement="flow_6"><di:waypoint x="870" y="221" /><di:waypoint x="915" y="221" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="flow_7_di" bpmnElement="flow_7"><di:waypoint x="1045" y="221" /><di:waypoint x="1090" y="221" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="flow_8_di" bpmnElement="flow_8"><di:waypoint x="1220" y="221" /><di:waypoint x="1312" y="221" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="flow_9_di" bpmnElement="flow_9"><di:waypoint x="630" y="246" /><di:waypoint x="630" y="336" /><di:waypoint x="740" y="336" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="flow_10_di" bpmnElement="flow_10"><di:waypoint x="870" y="336" /><di:waypoint x="962" y="336" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="flow_11_di" bpmnElement="flow_11"><di:waypoint x="630" y="246" /><di:waypoint x="630" y="451" /><di:waypoint x="740" y="451" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="flow_12_di" bpmnElement="flow_12"><di:waypoint x="870" y="451" /><di:waypoint x="962" y="451" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="flow_13_di" bpmnElement="flow_13"><di:waypoint x="630" y="246" /><di:waypoint x="630" y="566" /><di:waypoint x="740" y="566" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="flow_14_di" bpmnElement="flow_14"><di:waypoint x="870" y="566" /><di:waypoint x="962" y="566" /></bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

@@ -1,0 +1,357 @@
+serial,model,customer_domain,customer,ship_date,warranty_months
+HT12-117906,Arcline A8,northwind-analytics.com,Northwind Analytics,2025-11-29,36
+HT14-861218,Corvus R4,northwind-analytics.com,Northwind Analytics,2025-09-20,36
+HT24-125970,Corvus R2,northwind-analytics.com,Northwind Analytics,2026-02-07,36
+HT23-120530,Tidepool IM1,northwind-analytics.com,Northwind Analytics,2020-12-31,36
+HT11-717740,Arcline A8,northwind-analytics.com,Northwind Analytics,2026-02-23,60
+HT21-693000,Arcline A8,northwind-analytics.com,Northwind Analytics,2026-02-12,60
+HT12-953829,Tidepool IM1,northwind-analytics.com,Northwind Analytics,2025-11-04,36
+HT24-808548,Corvus R4,northwind-analytics.com,Northwind Analytics,2025-01-25,36
+HT20-806078,Corvus R4,northwind-analytics.com,Northwind Analytics,2025-03-24,60
+HT23-140824,Arcline A8,northwind-analytics.com,Northwind Analytics,2026-06-13,60
+HT20-214342,Arcline A8,northwind-analytics.com,Northwind Analytics,2025-01-25,36
+HT24-675661,Corvus R4,northwind-analytics.com,Northwind Analytics,2024-07-17,36
+HT13-841493,Tidepool IM1,northwind-analytics.com,Northwind Analytics,2024-12-26,36
+HT13-501641,Corvus R4,northwind-analytics.com,Northwind Analytics,2026-04-29,36
+HT23-512490,Corvus R2,northwind-analytics.com,Northwind Analytics,2023-06-25,36
+HT10-332996,Corvus R2,northwind-analytics.com,Northwind Analytics,2024-10-18,60
+HT12-462956,Corvus R2,northwind-analytics.com,Northwind Analytics,2021-04-19,36
+HT12-377156,Tidepool IM1,northwind-analytics.com,Northwind Analytics,2026-08-15,60
+HT19-326441,Corvus R2,northwind-analytics.com,Northwind Analytics,2025-06-08,36
+HT15-824156,Corvus R4,northwind-analytics.com,Northwind Analytics,2024-11-25,36
+HT10-566293,Arcline A8,northwind-analytics.com,Northwind Analytics,2026-04-06,60
+HT23-172954,Corvus R4,northwind-analytics.com,Northwind Analytics,2022-11-13,60
+HT19-909150,Corvus R2,northwind-analytics.com,Northwind Analytics,2025-07-29,36
+HT14-448653,Tidepool IM1,northwind-analytics.com,Northwind Analytics,2024-12-14,36
+HT12-454292,Corvus R2,northwind-analytics.com,Northwind Analytics,2024-11-14,36
+HT24-853276,Arcline A8,northwind-analytics.com,Northwind Analytics,2021-02-25,36
+HT14-885570,Tidepool IM1,northwind-analytics.com,Northwind Analytics,2026-08-28,36
+HT15-786415,Tidepool IM1,northwind-analytics.com,Northwind Analytics,2026-08-22,60
+HT23-833590,Arcline A8,northwind-analytics.com,Northwind Analytics,2026-06-30,36
+HT15-651683,Arcline A8,northwind-analytics.com,Northwind Analytics,2025-03-18,36
+HT17-165230,Tidepool IM1,northwind-analytics.com,Northwind Analytics,2023-04-24,36
+HT24-734465,Tidepool IM1,northwind-analytics.com,Northwind Analytics,2024-11-01,36
+HT21-943834,Arcline A8,northwind-analytics.com,Northwind Analytics,2025-07-31,36
+HT15-506375,Corvus R2,northwind-analytics.com,Northwind Analytics,2021-11-18,36
+HT18-664970,Arcline A8,northwind-analytics.com,Northwind Analytics,2021-02-11,60
+HT18-993670,Corvus R4,northwind-analytics.com,Northwind Analytics,2026-02-11,60
+HT24-226803,Arcline A8,northwind-analytics.com,Northwind Analytics,2024-12-25,60
+HT11-371867,Corvus R2,northwind-analytics.com,Northwind Analytics,2026-09-14,36
+HT25-144752,Tidepool IM1,northwind-analytics.com,Northwind Analytics,2025-02-21,36
+HT14-752236,Corvus R2,northwind-analytics.com,Northwind Analytics,2025-09-16,36
+HT21-407301,Corvus R2,northwind-analytics.com,Northwind Analytics,2025-08-12,60
+HT11-226108,Corvus R4,northwind-analytics.com,Northwind Analytics,2022-11-04,36
+HT14-867442,Arcline A8,northwind-analytics.com,Northwind Analytics,2024-10-22,36
+HT11-961539,Corvus R2,northwind-analytics.com,Northwind Analytics,2022-02-20,60
+HT20-130751,Corvus R4,northwind-analytics.com,Northwind Analytics,2026-06-09,36
+HT16-316100,Tidepool IM1,northwind-analytics.com,Northwind Analytics,2024-04-27,36
+HT23-795639,Arcline A8,northwind-analytics.com,Northwind Analytics,2026-02-06,60
+HT19-578661,Corvus R4,northwind-analytics.com,Northwind Analytics,2024-08-20,36
+HT19-971393,Corvus R2,northwind-analytics.com,Northwind Analytics,2024-07-21,36
+HT16-895113,Corvus R4,northwind-analytics.com,Northwind Analytics,2024-09-10,36
+HT11-142650,Arcline A8,northwind-analytics.com,Northwind Analytics,2025-07-16,60
+HT15-717962,Tidepool IM1,northwind-analytics.com,Northwind Analytics,2024-06-01,36
+HT11-803332,Arcline A8,northwind-analytics.com,Northwind Analytics,2025-11-03,36
+HT21-703576,Tidepool IM1,northwind-analytics.com,Northwind Analytics,2025-08-09,36
+HT23-953330,Corvus R4,northwind-analytics.com,Northwind Analytics,2024-12-22,36
+HT12-578572,Corvus R2,northwind-analytics.com,Northwind Analytics,2021-05-19,36
+HT11-872881,Corvus R2,northwind-analytics.com,Northwind Analytics,2026-01-04,36
+HT18-854150,Corvus R4,northwind-analytics.com,Northwind Analytics,2024-08-24,36
+HT26-586730,Corvus R2,northwind-analytics.com,Northwind Analytics,2026-07-18,36
+HT14-772614,Arcline A8,northwind-analytics.com,Northwind Analytics,2024-10-19,36
+HT26-735894,Corvus R4,northwind-analytics.com,Northwind Analytics,2024-08-14,60
+HT21-920921,Arcline A8,northwind-analytics.com,Northwind Analytics,2024-05-02,36
+HT25-672474,Arcline A8,northwind-analytics.com,Northwind Analytics,2025-07-08,36
+HT17-928755,Corvus R4,northwind-analytics.com,Northwind Analytics,2023-09-02,36
+HT13-830381,Arcline A8,northwind-analytics.com,Northwind Analytics,2026-05-01,36
+HT12-969562,Corvus R2,northwind-analytics.com,Northwind Analytics,2024-05-27,36
+HT11-636554,Arcline A8,northwind-analytics.com,Northwind Analytics,2024-12-13,36
+HT10-307039,Corvus R2,northwind-analytics.com,Northwind Analytics,2025-07-17,60
+HT16-612460,Corvus R2,northwind-analytics.com,Northwind Analytics,2026-03-25,60
+HT10-729228,Tidepool IM1,laval-render.ca,Laval Render Farm,2022-05-03,36
+HT23-936740,Corvus R2,laval-render.ca,Laval Render Farm,2025-02-13,60
+HT10-471068,Tidepool IM1,laval-render.ca,Laval Render Farm,2026-04-25,36
+HT24-442012,Arcline A8,laval-render.ca,Laval Render Farm,2023-05-03,60
+HT15-318009,Arcline A8,laval-render.ca,Laval Render Farm,2026-08-17,36
+HT13-743543,Tidepool IM1,laval-render.ca,Laval Render Farm,2026-05-01,60
+HT26-809879,Corvus R4,laval-render.ca,Laval Render Farm,2026-03-30,36
+HT13-963068,Corvus R4,laval-render.ca,Laval Render Farm,2025-01-15,36
+HT12-315100,Tidepool IM1,laval-render.ca,Laval Render Farm,2025-09-20,36
+HT17-254852,Arcline A8,laval-render.ca,Laval Render Farm,2026-06-12,60
+HT16-267270,Corvus R4,laval-render.ca,Laval Render Farm,2021-03-20,36
+HT13-913607,Corvus R4,laval-render.ca,Laval Render Farm,2025-01-23,60
+HT21-767865,Corvus R2,laval-render.ca,Laval Render Farm,2023-05-27,36
+HT15-378437,Arcline A8,laval-render.ca,Laval Render Farm,2026-07-29,60
+HT20-415304,Corvus R2,laval-render.ca,Laval Render Farm,2024-09-29,36
+HT22-657782,Tidepool IM1,laval-render.ca,Laval Render Farm,2023-03-18,36
+HT15-692879,Corvus R2,laval-render.ca,Laval Render Farm,2026-09-04,36
+HT20-826667,Corvus R4,laval-render.ca,Laval Render Farm,2024-07-17,36
+HT22-764381,Corvus R4,laval-render.ca,Laval Render Farm,2021-11-29,36
+HT18-648066,Tidepool IM1,laval-render.ca,Laval Render Farm,2025-03-28,60
+HT18-521978,Arcline A8,laval-render.ca,Laval Render Farm,2025-01-15,60
+HT20-925027,Arcline A8,laval-render.ca,Laval Render Farm,2026-09-10,60
+HT25-467938,Corvus R2,laval-render.ca,Laval Render Farm,2025-05-12,36
+HT12-388012,Corvus R4,laval-render.ca,Laval Render Farm,2024-05-07,36
+HT17-482911,Tidepool IM1,laval-render.ca,Laval Render Farm,2025-01-04,36
+HT26-826556,Arcline A8,laval-render.ca,Laval Render Farm,2024-06-10,36
+HT16-820646,Corvus R4,laval-render.ca,Laval Render Farm,2022-09-01,60
+HT25-865837,Arcline A8,laval-render.ca,Laval Render Farm,2022-12-18,60
+HT20-488135,Corvus R4,laval-render.ca,Laval Render Farm,2025-07-30,60
+HT11-883379,Tidepool IM1,laval-render.ca,Laval Render Farm,2024-08-20,36
+HT13-168168,Corvus R2,laval-render.ca,Laval Render Farm,2024-08-29,36
+HT23-397864,Corvus R4,laval-render.ca,Laval Render Farm,2026-05-26,36
+HT21-448827,Arcline A8,laval-render.ca,Laval Render Farm,2024-11-04,60
+HT16-993160,Tidepool IM1,laval-render.ca,Laval Render Farm,2021-03-28,60
+HT26-138720,Corvus R4,laval-render.ca,Laval Render Farm,2025-12-07,60
+HT24-667324,Tidepool IM1,laval-render.ca,Laval Render Farm,2026-08-14,60
+HT25-114021,Arcline A8,laval-render.ca,Laval Render Farm,2026-05-15,60
+HT14-789219,Corvus R4,laval-render.ca,Laval Render Farm,2026-01-29,60
+HT16-214787,Arcline A8,laval-render.ca,Laval Render Farm,2024-06-26,36
+HT10-945583,Arcline A8,laval-render.ca,Laval Render Farm,2024-08-06,36
+HT15-989544,Tidepool IM1,laval-render.ca,Laval Render Farm,2025-05-17,36
+HT16-505833,Corvus R2,laval-render.ca,Laval Render Farm,2026-05-26,36
+HT18-288787,Arcline A8,laval-render.ca,Laval Render Farm,2024-08-29,36
+HT19-639194,Corvus R4,laval-render.ca,Laval Render Farm,2026-09-14,36
+HT23-301817,Corvus R4,laval-render.ca,Laval Render Farm,2026-03-24,36
+HT12-855266,Corvus R2,laval-render.ca,Laval Render Farm,2026-02-16,36
+HT10-640480,Tidepool IM1,laval-render.ca,Laval Render Farm,2026-08-13,60
+HT12-334977,Arcline A8,laval-render.ca,Laval Render Farm,2025-05-14,36
+HT10-198379,Corvus R2,laval-render.ca,Laval Render Farm,2026-05-08,36
+HT14-990845,Corvus R2,laval-render.ca,Laval Render Farm,2026-01-11,60
+HT18-620658,Tidepool IM1,laval-render.ca,Laval Render Farm,2020-10-30,60
+HT11-147555,Corvus R4,laval-render.ca,Laval Render Farm,2024-06-24,36
+HT25-990767,Corvus R2,laval-render.ca,Laval Render Farm,2024-06-01,60
+HT11-448074,Corvus R4,laval-render.ca,Laval Render Farm,2025-11-05,36
+HT19-984684,Arcline A8,laval-render.ca,Laval Render Farm,2026-02-25,60
+HT19-924298,Corvus R4,laval-render.ca,Laval Render Farm,2022-01-16,36
+HT11-177838,Arcline A8,laval-render.ca,Laval Render Farm,2026-08-17,36
+HT23-330554,Corvus R2,laval-render.ca,Laval Render Farm,2025-09-02,60
+HT23-827903,Corvus R2,laval-render.ca,Laval Render Farm,2026-02-27,60
+HT11-603474,Arcline A8,laval-render.ca,Laval Render Farm,2025-02-17,36
+HT26-944720,Corvus R4,laval-render.ca,Laval Render Farm,2026-06-16,36
+HT22-163611,Arcline A8,polaris-bio.com,Polaris Bio,2026-03-25,36
+HT14-918082,Corvus R4,polaris-bio.com,Polaris Bio,2026-04-16,36
+HT15-918929,Tidepool IM1,polaris-bio.com,Polaris Bio,2025-05-19,36
+HT23-344537,Corvus R4,polaris-bio.com,Polaris Bio,2025-03-21,36
+HT25-297527,Corvus R4,polaris-bio.com,Polaris Bio,2026-08-22,60
+HT24-178450,Corvus R2,polaris-bio.com,Polaris Bio,2025-06-18,36
+HT23-455707,Corvus R2,polaris-bio.com,Polaris Bio,2024-06-29,36
+HT19-445574,Corvus R4,polaris-bio.com,Polaris Bio,2022-11-22,36
+HT24-406037,Corvus R4,polaris-bio.com,Polaris Bio,2024-11-04,36
+HT11-888780,Corvus R2,polaris-bio.com,Polaris Bio,2025-01-15,36
+HT12-304982,Tidepool IM1,polaris-bio.com,Polaris Bio,2026-07-10,60
+HT20-734219,Corvus R2,polaris-bio.com,Polaris Bio,2026-01-28,36
+HT17-584139,Corvus R4,polaris-bio.com,Polaris Bio,2026-05-13,60
+HT13-430291,Tidepool IM1,polaris-bio.com,Polaris Bio,2025-12-16,36
+HT23-661261,Arcline A8,polaris-bio.com,Polaris Bio,2024-09-15,60
+HT15-808272,Tidepool IM1,polaris-bio.com,Polaris Bio,2024-04-14,60
+HT23-422855,Corvus R4,polaris-bio.com,Polaris Bio,2025-01-19,36
+HT12-727410,Corvus R2,polaris-bio.com,Polaris Bio,2026-05-18,36
+HT15-121798,Tidepool IM1,polaris-bio.com,Polaris Bio,2024-12-23,36
+HT22-427392,Arcline A8,polaris-bio.com,Polaris Bio,2021-11-16,36
+HT16-826270,Tidepool IM1,polaris-bio.com,Polaris Bio,2025-09-27,36
+HT22-342712,Corvus R4,polaris-bio.com,Polaris Bio,2025-10-31,36
+HT14-822985,Arcline A8,polaris-bio.com,Polaris Bio,2025-07-29,36
+HT26-181901,Corvus R4,polaris-bio.com,Polaris Bio,2025-07-28,60
+HT18-185129,Corvus R4,polaris-bio.com,Polaris Bio,2021-03-26,60
+HT19-479740,Corvus R2,polaris-bio.com,Polaris Bio,2024-12-07,60
+HT18-996147,Corvus R2,polaris-bio.com,Polaris Bio,2025-05-22,36
+HT23-613813,Tidepool IM1,polaris-bio.com,Polaris Bio,2024-05-03,60
+HT24-478710,Tidepool IM1,polaris-bio.com,Polaris Bio,2026-03-10,36
+HT14-815334,Corvus R2,polaris-bio.com,Polaris Bio,2025-07-25,36
+HT13-379434,Corvus R2,polaris-bio.com,Polaris Bio,2026-08-07,60
+HT16-706498,Arcline A8,polaris-bio.com,Polaris Bio,2024-12-24,36
+HT20-458850,Corvus R4,polaris-bio.com,Polaris Bio,2025-03-26,36
+HT10-344067,Arcline A8,polaris-bio.com,Polaris Bio,2025-09-04,36
+HT26-333598,Corvus R4,polaris-bio.com,Polaris Bio,2024-09-23,36
+HT26-933830,Tidepool IM1,polaris-bio.com,Polaris Bio,2025-04-11,60
+HT26-966468,Tidepool IM1,polaris-bio.com,Polaris Bio,2023-01-25,36
+HT24-969942,Corvus R2,polaris-bio.com,Polaris Bio,2024-10-27,36
+HT11-662840,Arcline A8,polaris-bio.com,Polaris Bio,2026-07-29,36
+HT16-310927,Corvus R4,polaris-bio.com,Polaris Bio,2025-06-11,36
+HT19-628046,Arcline A8,polaris-bio.com,Polaris Bio,2026-06-08,36
+HT11-205618,Corvus R2,polaris-bio.com,Polaris Bio,2024-08-01,36
+HT21-491402,Corvus R4,polaris-bio.com,Polaris Bio,2025-05-08,36
+HT16-894692,Tidepool IM1,polaris-bio.com,Polaris Bio,2026-08-13,36
+HT10-750749,Tidepool IM1,polaris-bio.com,Polaris Bio,2023-05-25,36
+HT26-581812,Arcline A8,polaris-bio.com,Polaris Bio,2026-06-29,36
+HT14-845538,Arcline A8,polaris-bio.com,Polaris Bio,2024-12-10,36
+HT20-411510,Corvus R2,polaris-bio.com,Polaris Bio,2026-09-05,36
+HT10-870524,Tidepool IM1,polaris-bio.com,Polaris Bio,2025-10-01,36
+HT20-175325,Corvus R2,polaris-bio.com,Polaris Bio,2026-01-27,60
+HT17-810956,Corvus R4,quantumleaf.io,QuantumLeaf AI,2026-01-28,60
+HT22-388596,Tidepool IM1,quantumleaf.io,QuantumLeaf AI,2025-12-24,36
+HT13-907581,Corvus R4,quantumleaf.io,QuantumLeaf AI,2026-01-29,36
+HT20-351125,Corvus R2,quantumleaf.io,QuantumLeaf AI,2025-11-13,36
+HT10-950221,Corvus R4,quantumleaf.io,QuantumLeaf AI,2025-06-16,36
+HT17-242168,Tidepool IM1,quantumleaf.io,QuantumLeaf AI,2024-09-15,36
+HT14-526528,Corvus R2,quantumleaf.io,QuantumLeaf AI,2026-07-16,36
+HT18-783569,Corvus R2,quantumleaf.io,QuantumLeaf AI,2025-04-20,36
+HT23-457156,Corvus R4,quantumleaf.io,QuantumLeaf AI,2020-10-25,36
+HT11-628516,Corvus R4,quantumleaf.io,QuantumLeaf AI,2025-12-13,36
+HT26-727956,Tidepool IM1,quantumleaf.io,QuantumLeaf AI,2026-08-13,36
+HT10-298924,Arcline A8,quantumleaf.io,QuantumLeaf AI,2026-04-04,60
+HT21-630820,Tidepool IM1,quantumleaf.io,QuantumLeaf AI,2021-04-25,36
+HT25-996141,Arcline A8,quantumleaf.io,QuantumLeaf AI,2025-08-29,36
+HT12-161467,Arcline A8,quantumleaf.io,QuantumLeaf AI,2025-08-11,36
+HT10-857548,Arcline A8,quantumleaf.io,QuantumLeaf AI,2025-09-03,36
+HT24-733908,Arcline A8,quantumleaf.io,QuantumLeaf AI,2021-01-31,36
+HT15-825295,Corvus R2,quantumleaf.io,QuantumLeaf AI,2025-11-21,36
+HT19-606185,Corvus R4,quantumleaf.io,QuantumLeaf AI,2024-07-12,36
+HT26-624866,Tidepool IM1,quantumleaf.io,QuantumLeaf AI,2025-09-30,36
+HT21-999905,Corvus R4,quantumleaf.io,QuantumLeaf AI,2026-02-12,36
+HT13-147195,Arcline A8,quantumleaf.io,QuantumLeaf AI,2024-08-15,36
+HT24-584143,Tidepool IM1,quantumleaf.io,QuantumLeaf AI,2022-11-24,36
+HT15-818742,Corvus R2,quantumleaf.io,QuantumLeaf AI,2024-11-23,36
+HT20-214686,Tidepool IM1,quantumleaf.io,QuantumLeaf AI,2026-05-25,36
+HT26-263329,Arcline A8,quantumleaf.io,QuantumLeaf AI,2023-09-19,60
+HT25-556887,Corvus R2,quantumleaf.io,QuantumLeaf AI,2025-12-01,60
+HT14-220567,Arcline A8,quantumleaf.io,QuantumLeaf AI,2023-06-10,36
+HT26-434190,Arcline A8,quantumleaf.io,QuantumLeaf AI,2026-04-07,60
+HT12-478453,Corvus R2,quantumleaf.io,QuantumLeaf AI,2022-02-24,36
+HT14-376689,Tidepool IM1,quantumleaf.io,QuantumLeaf AI,2025-01-03,36
+HT20-993355,Corvus R2,quantumleaf.io,QuantumLeaf AI,2026-05-31,36
+HT22-781737,Arcline A8,quantumleaf.io,QuantumLeaf AI,2024-06-14,60
+HT20-447078,Arcline A8,quantumleaf.io,QuantumLeaf AI,2025-12-02,36
+HT26-321671,Corvus R4,quantumleaf.io,QuantumLeaf AI,2026-05-05,36
+HT16-323477,Corvus R2,quantumleaf.io,QuantumLeaf AI,2026-08-27,36
+HT17-660407,Tidepool IM1,quantumleaf.io,QuantumLeaf AI,2025-01-24,36
+HT14-428517,Arcline A8,quantumleaf.io,QuantumLeaf AI,2024-08-17,60
+HT15-101320,Tidepool IM1,quantumleaf.io,QuantumLeaf AI,2025-10-29,36
+HT10-959977,Corvus R4,quantumleaf.io,QuantumLeaf AI,2025-03-12,60
+HT15-793039,Corvus R4,quantumleaf.io,QuantumLeaf AI,2025-03-15,36
+HT15-599074,Corvus R4,quantumleaf.io,QuantumLeaf AI,2024-12-22,36
+HT23-377302,Corvus R4,quantumleaf.io,QuantumLeaf AI,2026-07-05,36
+HT25-358488,Tidepool IM1,quantumleaf.io,QuantumLeaf AI,2025-07-03,36
+HT13-205967,Corvus R2,quantumleaf.io,QuantumLeaf AI,2026-06-24,60
+HT15-850922,Tidepool IM1,quantumleaf.io,QuantumLeaf AI,2026-04-05,60
+HT18-951611,Arcline A8,quantumleaf.io,QuantumLeaf AI,2021-12-31,60
+HT11-353493,Corvus R2,quantumleaf.io,QuantumLeaf AI,2026-01-18,36
+HT14-708664,Arcline A8,quantumleaf.io,QuantumLeaf AI,2026-08-26,60
+HT14-258889,Corvus R4,quantumleaf.io,QuantumLeaf AI,2025-06-11,36
+HT12-913727,Corvus R2,quantumleaf.io,QuantumLeaf AI,2024-10-06,36
+HT26-133189,Corvus R2,quantumleaf.io,QuantumLeaf AI,2026-02-28,36
+HT14-944005,Tidepool IM1,quantumleaf.io,QuantumLeaf AI,2024-08-23,36
+HT19-366667,Corvus R4,quantumleaf.io,QuantumLeaf AI,2024-05-17,36
+HT20-642979,Arcline A8,quantumleaf.io,QuantumLeaf AI,2024-07-14,36
+HT10-458995,Corvus R4,quantumleaf.io,QuantumLeaf AI,2025-07-11,60
+HT25-639204,Tidepool IM1,quantumleaf.io,QuantumLeaf AI,2021-01-08,36
+HT22-754839,Arcline A8,quantumleaf.io,QuantumLeaf AI,2024-05-29,60
+HT19-101954,Tidepool IM1,quantumleaf.io,QuantumLeaf AI,2025-04-12,36
+HT23-541615,Corvus R4,quantumleaf.io,QuantumLeaf AI,2025-08-02,36
+HT13-160426,Corvus R2,quantumleaf.io,QuantumLeaf AI,2026-09-19,36
+HT25-712765,Arcline A8,quantumleaf.io,QuantumLeaf AI,2026-06-24,36
+HT13-830789,Arcline A8,quantumleaf.io,QuantumLeaf AI,2025-03-11,36
+HT16-179646,Corvus R4,quantumleaf.io,QuantumLeaf AI,2025-04-07,36
+HT10-955491,Arcline A8,quantumleaf.io,QuantumLeaf AI,2026-07-09,36
+HT26-598559,Arcline A8,quantumleaf.io,QuantumLeaf AI,2025-02-03,36
+HT22-697180,Arcline A8,quantumleaf.io,QuantumLeaf AI,2026-04-02,36
+HT13-911936,Corvus R2,quantumleaf.io,QuantumLeaf AI,2026-07-12,36
+HT26-267478,Tidepool IM1,quantumleaf.io,QuantumLeaf AI,2025-04-22,60
+HT25-703716,Tidepool IM1,fleuve-donnees.qc.ca,Fleuve Données,2024-05-23,36
+HT21-203892,Arcline A8,fleuve-donnees.qc.ca,Fleuve Données,2024-06-21,36
+HT25-909725,Corvus R2,fleuve-donnees.qc.ca,Fleuve Données,2025-05-10,36
+HT12-329071,Corvus R4,fleuve-donnees.qc.ca,Fleuve Données,2026-03-04,36
+HT25-828538,Arcline A8,fleuve-donnees.qc.ca,Fleuve Données,2025-04-25,36
+HT17-964962,Arcline A8,fleuve-donnees.qc.ca,Fleuve Données,2025-07-03,60
+HT11-464109,Arcline A8,fleuve-donnees.qc.ca,Fleuve Données,2024-10-13,36
+HT17-234536,Arcline A8,fleuve-donnees.qc.ca,Fleuve Données,2024-04-15,36
+HT24-571859,Arcline A8,fleuve-donnees.qc.ca,Fleuve Données,2023-09-12,36
+HT26-626797,Corvus R2,fleuve-donnees.qc.ca,Fleuve Données,2025-07-26,60
+HT22-548548,Tidepool IM1,fleuve-donnees.qc.ca,Fleuve Données,2025-09-29,60
+HT23-721576,Tidepool IM1,fleuve-donnees.qc.ca,Fleuve Données,2024-09-20,36
+HT26-569378,Tidepool IM1,fleuve-donnees.qc.ca,Fleuve Données,2025-06-05,36
+HT25-169718,Tidepool IM1,fleuve-donnees.qc.ca,Fleuve Données,2026-07-17,36
+HT21-842282,Corvus R4,fleuve-donnees.qc.ca,Fleuve Données,2026-04-23,36
+HT25-783271,Corvus R4,fleuve-donnees.qc.ca,Fleuve Données,2023-05-15,36
+HT20-362156,Corvus R4,fleuve-donnees.qc.ca,Fleuve Données,2024-11-19,36
+HT25-719239,Corvus R2,fleuve-donnees.qc.ca,Fleuve Données,2025-10-20,60
+HT13-103897,Corvus R2,fleuve-donnees.qc.ca,Fleuve Données,2025-07-10,36
+HT18-577080,Corvus R2,fleuve-donnees.qc.ca,Fleuve Données,2025-11-21,36
+HT16-327882,Corvus R4,fleuve-donnees.qc.ca,Fleuve Données,2025-04-10,36
+HT10-262053,Corvus R2,fleuve-donnees.qc.ca,Fleuve Données,2025-03-05,36
+HT11-446704,Corvus R4,fleuve-donnees.qc.ca,Fleuve Données,2025-12-21,36
+HT17-902967,Corvus R2,fleuve-donnees.qc.ca,Fleuve Données,2024-08-04,36
+HT19-989378,Corvus R2,fleuve-donnees.qc.ca,Fleuve Données,2024-07-25,60
+HT22-534761,Corvus R4,fleuve-donnees.qc.ca,Fleuve Données,2024-05-27,36
+HT20-970515,Arcline A8,fleuve-donnees.qc.ca,Fleuve Données,2024-06-05,36
+HT23-622534,Arcline A8,fleuve-donnees.qc.ca,Fleuve Données,2026-09-05,36
+HT10-718334,Corvus R4,fleuve-donnees.qc.ca,Fleuve Données,2026-09-13,60
+HT13-703969,Arcline A8,fleuve-donnees.qc.ca,Fleuve Données,2025-03-06,36
+HT11-879577,Corvus R2,fleuve-donnees.qc.ca,Fleuve Données,2026-03-26,60
+HT19-422410,Corvus R2,fleuve-donnees.qc.ca,Fleuve Données,2022-07-10,60
+HT15-490066,Corvus R4,fleuve-donnees.qc.ca,Fleuve Données,2024-06-13,36
+HT20-505469,Corvus R2,fleuve-donnees.qc.ca,Fleuve Données,2025-10-20,36
+HT16-476901,Arcline A8,fleuve-donnees.qc.ca,Fleuve Données,2024-12-27,36
+HT15-715036,Corvus R4,fleuve-donnees.qc.ca,Fleuve Données,2026-02-04,60
+HT24-380304,Tidepool IM1,fleuve-donnees.qc.ca,Fleuve Données,2026-04-30,60
+HT10-639715,Corvus R4,fleuve-donnees.qc.ca,Fleuve Données,2026-05-31,60
+HT24-519666,Corvus R2,fleuve-donnees.qc.ca,Fleuve Données,2025-11-08,60
+HT21-404542,Arcline A8,fleuve-donnees.qc.ca,Fleuve Données,2026-03-15,36
+HT25-536225,Corvus R4,fleuve-donnees.qc.ca,Fleuve Données,2025-02-06,36
+HT13-525371,Corvus R2,fleuve-donnees.qc.ca,Fleuve Données,2026-05-04,60
+HT14-140129,Tidepool IM1,fleuve-donnees.qc.ca,Fleuve Données,2025-07-18,36
+HT17-627520,Corvus R2,fleuve-donnees.qc.ca,Fleuve Données,2025-10-04,36
+HT11-318318,Corvus R4,fleuve-donnees.qc.ca,Fleuve Données,2024-11-18,60
+HT20-734387,Corvus R2,fleuve-donnees.qc.ca,Fleuve Données,2025-04-10,60
+HT22-403231,Corvus R4,fleuve-donnees.qc.ca,Fleuve Données,2026-03-24,36
+HT20-909584,Arcline A8,fleuve-donnees.qc.ca,Fleuve Données,2024-08-01,60
+HT25-634720,Corvus R2,fleuve-donnees.qc.ca,Fleuve Données,2024-07-08,36
+HT16-983901,Arcline A8,fleuve-donnees.qc.ca,Fleuve Données,2024-07-30,36
+HT19-789844,Corvus R2,fleuve-donnees.qc.ca,Fleuve Données,2026-07-03,36
+HT21-928561,Corvus R2,metro-health.org,Metro Health Network,2024-08-16,36
+HT22-226075,Tidepool IM1,metro-health.org,Metro Health Network,2025-09-18,36
+HT12-328063,Arcline A8,metro-health.org,Metro Health Network,2024-09-15,36
+HT10-383449,Arcline A8,metro-health.org,Metro Health Network,2024-06-10,36
+HT11-245011,Corvus R2,metro-health.org,Metro Health Network,2025-04-04,36
+HT21-976853,Corvus R2,metro-health.org,Metro Health Network,2025-06-27,36
+HT15-412049,Tidepool IM1,metro-health.org,Metro Health Network,2024-10-22,36
+HT26-671064,Corvus R2,metro-health.org,Metro Health Network,2026-04-16,60
+HT21-219353,Arcline A8,metro-health.org,Metro Health Network,2024-05-21,60
+HT15-267317,Corvus R4,metro-health.org,Metro Health Network,2026-01-07,36
+HT12-339881,Corvus R2,metro-health.org,Metro Health Network,2025-11-15,36
+HT19-528532,Tidepool IM1,metro-health.org,Metro Health Network,2021-11-26,60
+HT10-434742,Arcline A8,metro-health.org,Metro Health Network,2021-10-30,36
+HT23-391456,Tidepool IM1,metro-health.org,Metro Health Network,2025-12-02,60
+HT10-372041,Tidepool IM1,metro-health.org,Metro Health Network,2026-05-04,60
+HT17-597865,Corvus R4,metro-health.org,Metro Health Network,2023-09-27,36
+HT22-268991,Arcline A8,metro-health.org,Metro Health Network,2025-01-22,36
+HT24-378066,Tidepool IM1,metro-health.org,Metro Health Network,2024-11-21,36
+HT21-749148,Arcline A8,metro-health.org,Metro Health Network,2025-07-29,36
+HT15-732765,Corvus R2,metro-health.org,Metro Health Network,2026-03-19,36
+HT18-350747,Tidepool IM1,metro-health.org,Metro Health Network,2025-08-08,36
+HT13-353863,Corvus R4,metro-health.org,Metro Health Network,2024-07-03,36
+HT14-293527,Tidepool IM1,metro-health.org,Metro Health Network,2025-02-05,36
+HT16-544635,Tidepool IM1,metro-health.org,Metro Health Network,2025-01-07,60
+HT15-316408,Corvus R4,metro-health.org,Metro Health Network,2021-09-11,36
+HT11-176237,Tidepool IM1,metro-health.org,Metro Health Network,2025-09-22,60
+HT12-737941,Tidepool IM1,metro-health.org,Metro Health Network,2024-11-09,60
+HT17-994683,Arcline A8,metro-health.org,Metro Health Network,2021-02-03,36
+HT24-213846,Tidepool IM1,metro-health.org,Metro Health Network,2025-07-14,36
+HT11-971945,Tidepool IM1,metro-health.org,Metro Health Network,2024-09-05,36
+HT23-127389,Corvus R2,metro-health.org,Metro Health Network,2025-05-15,60
+HT26-469294,Tidepool IM1,metro-health.org,Metro Health Network,2020-12-26,36
+HT24-287567,Arcline A8,metro-health.org,Metro Health Network,2026-03-15,60
+HT25-222303,Corvus R4,metro-health.org,Metro Health Network,2025-10-24,36
+HT16-961850,Tidepool IM1,metro-health.org,Metro Health Network,2025-11-11,36
+HT12-714020,Tidepool IM1,metro-health.org,Metro Health Network,2024-10-03,60
+HT15-470968,Arcline A8,metro-health.org,Metro Health Network,2026-01-31,60
+HT23-173132,Tidepool IM1,metro-health.org,Metro Health Network,2020-10-11,36
+HT22-669262,Corvus R4,metro-health.org,Metro Health Network,2025-10-16,60
+HT13-603683,Corvus R2,metro-health.org,Metro Health Network,2026-02-05,36
+HT15-745467,Arcline A8,metro-health.org,Metro Health Network,2024-06-20,36
+HT15-159709,Tidepool IM1,metro-health.org,Metro Health Network,2021-05-27,36
+HT12-138700,Tidepool IM1,metro-health.org,Metro Health Network,2024-08-03,36
+HT12-445090,Corvus R4,metro-health.org,Metro Health Network,2025-12-16,60
+HT22-914691,Arcline A8,metro-health.org,Metro Health Network,2022-11-04,36
+HT25-163640,Tidepool IM1,metro-health.org,Metro Health Network,2023-10-11,60
+HT25-436463,Arcline A8,metro-health.org,Metro Health Network,2026-05-17,60
+HT26-170742,Corvus R4,metro-health.org,Metro Health Network,2021-05-21,36
+HT14-358345,Arcline A8,metro-health.org,Metro Health Network,2024-11-02,60
+HT21-656861,Tidepool IM1,metro-health.org,Metro Health Network,2024-05-01,60
+HT21-715742,Tidepool IM1,metro-health.org,Metro Health Network,2025-02-02,36
+HT22-283019,Corvus R4,metro-health.org,Metro Health Network,2026-09-21,60
+HT23-368870,Arcline A8,metro-health.org,Metro Health Network,2025-10-21,36
+HT18-515493,Tidepool IM1,metro-health.org,Metro Health Network,2024-07-13,60
+HT16-842841,Corvus R4,metro-health.org,Metro Health Network,2024-08-17,36
+HT10-709379,Corvus R2,metro-health.org,Metro Health Network,2024-08-24,36

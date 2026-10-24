@@ -1,0 +1,293 @@
+{
+  "test_requests": 212,
+  "test_rma_requests": 157,
+  "test_french": 72,
+  "unseen_phrasing_requests": 108,
+  "routes": {
+    "DRAFT_RMA": 117,
+    "HUMAN_REVIEW": 43,
+    "ASK_CUSTOMER": 20,
+    "SAFETY_ESCALATION": 18,
+    "FORWARD_NON_RMA": 14
+  },
+  "french_category_accuracy": 100.0,
+  "english_category_accuracy": 100.0,
+  "overall_category_accuracy": 100.0,
+  "gates": [
+    {
+      "id": "E1",
+      "gate": "Non-RMA emails drafted as an RMA",
+      "kind": "hard",
+      "threshold": 0,
+      "comparison": "eq",
+      "value": 0,
+      "pass": true
+    },
+    {
+      "id": "E2",
+      "gate": "Safety emails escalated to a person",
+      "kind": "hard",
+      "threshold": 100.0,
+      "comparison": "ge",
+      "value": 100.0,
+      "pass": true
+    },
+    {
+      "id": "E3",
+      "gate": "Category correct on drafted RMAs (%)",
+      "kind": "soft",
+      "threshold": 95.0,
+      "comparison": "ge",
+      "value": 100.0,
+      "pass": true
+    },
+    {
+      "id": "E4",
+      "gate": "Serials extracted exactly where present (%)",
+      "kind": "soft",
+      "threshold": 98.0,
+      "comparison": "ge",
+      "value": 100.0,
+      "pass": true
+    },
+    {
+      "id": "E5",
+      "gate": "Ownership and warranty correct on drafted RMAs (%)",
+      "kind": "hard",
+      "threshold": 100.0,
+      "comparison": "ge",
+      "value": 100.0,
+      "pass": true
+    },
+    {
+      "id": "E6",
+      "gate": "RMA requests drafted without triage (%)",
+      "kind": "soft",
+      "threshold": 50.0,
+      "comparison": "ge",
+      "value": 74.5,
+      "pass": true
+    },
+    {
+      "id": "E7",
+      "gate": "French vs English category accuracy gap (points)",
+      "kind": "soft",
+      "threshold": 5.0,
+      "comparison": "le",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "id": "E8",
+      "gate": "Category accuracy on unseen phrasings (%)",
+      "kind": "soft",
+      "threshold": 90.0,
+      "comparison": "ge",
+      "value": 100.0,
+      "pass": true
+    }
+  ],
+  "release": true,
+  "version": "v2: glossary + model",
+  "category_threshold": 0.4,
+  "validation_accuracy_at_threshold": 100.0,
+  "split": {
+    "train": 214,
+    "val": 54,
+    "test": 212
+  },
+  "iterations": [
+    {
+      "version": "v1: model only",
+      "release": false,
+      "gates": [
+        {
+          "id": "E1",
+          "gate": "Non-RMA emails drafted as an RMA",
+          "kind": "hard",
+          "threshold": 0,
+          "comparison": "eq",
+          "value": 0,
+          "pass": true
+        },
+        {
+          "id": "E2",
+          "gate": "Safety emails escalated to a person",
+          "kind": "hard",
+          "threshold": 100.0,
+          "comparison": "ge",
+          "value": 100.0,
+          "pass": true
+        },
+        {
+          "id": "E3",
+          "gate": "Category correct on drafted RMAs (%)",
+          "kind": "soft",
+          "threshold": 95.0,
+          "comparison": "ge",
+          "value": 100.0,
+          "pass": true
+        },
+        {
+          "id": "E4",
+          "gate": "Serials extracted exactly where present (%)",
+          "kind": "soft",
+          "threshold": 98.0,
+          "comparison": "ge",
+          "value": 100.0,
+          "pass": true
+        },
+        {
+          "id": "E5",
+          "gate": "Ownership and warranty correct on drafted RMAs (%)",
+          "kind": "hard",
+          "threshold": 100.0,
+          "comparison": "ge",
+          "value": 100.0,
+          "pass": true
+        },
+        {
+          "id": "E6",
+          "gate": "RMA requests drafted without triage (%)",
+          "kind": "soft",
+          "threshold": 50.0,
+          "comparison": "ge",
+          "value": 29.3,
+          "pass": false
+        },
+        {
+          "id": "E7",
+          "gate": "French vs English category accuracy gap (points)",
+          "kind": "soft",
+          "threshold": 5.0,
+          "comparison": "le",
+          "value": 10.8,
+          "pass": false
+        },
+        {
+          "id": "E8",
+          "gate": "Category accuracy on unseen phrasings (%)",
+          "kind": "soft",
+          "threshold": 90.0,
+          "comparison": "ge",
+          "value": 58.3,
+          "pass": false
+        }
+      ],
+      "routes": {
+        "HUMAN_REVIEW": 114,
+        "DRAFT_RMA": 46,
+        "ASK_CUSTOMER": 20,
+        "SAFETY_ESCALATION": 18,
+        "FORWARD_NON_RMA": 14
+      }
+    },
+    {
+      "version": "v2: glossary + model",
+      "release": true,
+      "gates": [
+        {
+          "id": "E1",
+          "gate": "Non-RMA emails drafted as an RMA",
+          "kind": "hard",
+          "threshold": 0,
+          "comparison": "eq",
+          "value": 0,
+          "pass": true
+        },
+        {
+          "id": "E2",
+          "gate": "Safety emails escalated to a person",
+          "kind": "hard",
+          "threshold": 100.0,
+          "comparison": "ge",
+          "value": 100.0,
+          "pass": true
+        },
+        {
+          "id": "E3",
+          "gate": "Category correct on drafted RMAs (%)",
+          "kind": "soft",
+          "threshold": 95.0,
+          "comparison": "ge",
+          "value": 100.0,
+          "pass": true
+        },
+        {
+          "id": "E4",
+          "gate": "Serials extracted exactly where present (%)",
+          "kind": "soft",
+          "threshold": 98.0,
+          "comparison": "ge",
+          "value": 100.0,
+          "pass": true
+        },
+        {
+          "id": "E5",
+          "gate": "Ownership and warranty correct on drafted RMAs (%)",
+          "kind": "hard",
+          "threshold": 100.0,
+          "comparison": "ge",
+          "value": 100.0,
+          "pass": true
+        },
+        {
+          "id": "E6",
+          "gate": "RMA requests drafted without triage (%)",
+          "kind": "soft",
+          "threshold": 50.0,
+          "comparison": "ge",
+          "value": 74.5,
+          "pass": true
+        },
+        {
+          "id": "E7",
+          "gate": "French vs English category accuracy gap (points)",
+          "kind": "soft",
+          "threshold": 5.0,
+          "comparison": "le",
+          "value": 0.0,
+          "pass": true
+        },
+        {
+          "id": "E8",
+          "gate": "Category accuracy on unseen phrasings (%)",
+          "kind": "soft",
+          "threshold": 90.0,
+          "comparison": "ge",
+          "value": 100.0,
+          "pass": true
+        }
+      ],
+      "routes": {
+        "DRAFT_RMA": 117,
+        "HUMAN_REVIEW": 43,
+        "ASK_CUSTOMER": 20,
+        "SAFETY_ESCALATION": 18,
+        "FORWARD_NON_RMA": 14
+      }
+    }
+  ],
+  "impact": {
+    "assumptions": {
+      "agent_minutes": 2,
+      "approval_hours": 1.0,
+      "hands_on_triage_min": 10,
+      "hands_on_entry_min": 15,
+      "hands_on_approve_min": 1
+    },
+    "rma_requests_in_test": 157,
+    "median_cycle_hours_before": 10.2,
+    "median_cycle_hours_after_projected": 1.0,
+    "p90_cycle_hours_before": 31.8,
+    "p90_cycle_hours_after_projected": 19.9,
+    "safety_median_hours_before": 3.6,
+    "safety_worst_hours_before": 17.1,
+    "safety_minutes_after": 2,
+    "miscategorized_pct_before": 7.6,
+    "miscategorized_pct_after_on_drafts": 0.0,
+    "warranty_error_pct_before": 3.8,
+    "desk_hands_on_hours_before": 65.4,
+    "desk_hands_on_hours_after_projected": 10.6
+  }
+}

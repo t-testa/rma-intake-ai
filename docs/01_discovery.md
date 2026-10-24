@@ -25,17 +25,17 @@ BPMN 2.0 source: [`bpmn/current_state.bpmn`](../bpmn/current_state.bpmn) (opens 
 
 | Measure | Baseline |
 |---|---|
-| Requests | 480: 410 RMA requests, 70 that were not RMAs (quotes, orders, invoices, BIOS questions), 124 in French |
-| Time from email to RMA number | median **8.9 h**, 90th percentile **33.4 h** |
-| Time until someone first reads it | median 4.7 h |
-| RMA requests that needed a follow-up email for missing details | **21.7%** |
-| RMAs entered with the wrong failure category | **8.6%** |
-| Warranty decisions made wrong | **4.4%** |
-| Safety emails (smoke, burning, sparks): time until a human saw them | median **3.5 h**, worst **25.9 h** |
+| Requests | 480: 403 RMA requests, 77 that were not RMAs (quotes, orders, invoices, BIOS questions), 132 in French |
+| Time from email to RMA number | median **9.2 h**, 90th percentile **32.4 h** |
+| Time until someone first reads it | median 5.0 h |
+| RMA requests that needed a follow-up email for missing details | **22.3%** |
+| RMAs entered with the wrong failure category | **9.0%** |
+| Warranty decisions made wrong | **4.7%** |
+| Safety emails (smoke, burning, sparks): time until a human saw them | median **3.7 h**, worst **17.2 h** |
 
 ## Pain points
 
-1. **Safety issues wait in the same queue as everything else.** The worst case sat for a day.
+1. **Safety issues wait in the same queue as everything else.** The worst case sat for 17 hours.
 2. **One in five requests stalls for missing information,** usually the serial number, and the follow-up email itself waits for triage.
 3. **Re-keying.** The desk copies serials, models and symptoms from email into the ERP by hand, and checks warranty in a spreadsheet that is exported weekly.
 4. **Wrong categories** send units to the wrong repair bench and distort failure reporting to engineering.
@@ -57,7 +57,7 @@ BPMN 2.0 source: [`bpmn/current_state.bpmn`](../bpmn/current_state.bpmn) (opens 
 |---|---|---|---|
 | Flag safety language instantly and page engineering | Low | High: removes the worst risk | Low |
 | Read the email, extract serials and classify the failure (EN/FR) | Medium | High: removes triage and re-keying | Medium: customer emails |
-| Check owner and warranty from the ERP automatically | Low | Medium: removes the 4.4% warranty errors | Low (read-only lookup) |
+| Check owner and warranty from the ERP automatically | Low | Medium: removes the 4.7% warranty errors | Low (read-only lookup) |
 | Draft the missing-serial reply in the customer's language immediately | Low | Medium: starts the customer's clock hours earlier | Low |
 | Route non-RMA emails to sales or billing | Low | Low to medium | Low |
 | Auto-approve RMAs with no human | Medium | Medium | **Not recommended**: approval stays with the desk (one click) |

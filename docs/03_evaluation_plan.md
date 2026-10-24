@@ -14,9 +14,9 @@ These thresholds were set with the RMA desk lead and the product owner **before 
 |---|---|---|---|
 | E1 | Non-RMA emails drafted as an RMA | **0** | A false RMA ships a replacement server for nothing. No tolerance. |
 | E2 | Safety emails (smoke, burning, sparks) escalated to a person | **100%** | Safety cannot depend on a probability. |
-| E3 | Failure category correct, on RMAs the agent drafts | **≥ 95%** | Better than today's 91.4% (8.6% miscategorized). |
+| E3 | Failure category correct, on RMAs the agent drafts | **≥ 95%** | Better than today's 91.0% (9.0% miscategorized). |
 | E4 | Serials extracted exactly, where the email contains one | **≥ 98%** | A wrong serial means the wrong unit and the wrong warranty. |
-| E5 | Ownership and warranty decision correct, on drafted RMAs | **100%** | Deterministic lookup; replaces today's 4.4% error rate. |
+| E5 | Ownership and warranty decision correct, on drafted RMAs | **100%** | Deterministic lookup; replaces today's 4.7% error rate. |
 | E6 | RMA requests drafted without human triage | **≥ 50%** | Below this, the change is not worth the operational cost. |
 | E7 | French vs English category accuracy | **≤ 5 points apart** | French customers must not get a worse service. |
 | E8 | Category accuracy on phrasings never seen in training | **≥ 90%** | Real customers will not write like the training data. |

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1408 672" font-family="Segoe UI, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#444"/></marker></defs>
+<text x="20" y="28" font-size="17" font-weight="600" fill="#111">RMA intake: future state (AI agent, automation and people)</text>
+<polyline points="123,221 215,221" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<polyline points="345,221 390,221" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<polyline points="520,221 605,221" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<polyline points="630,196 630,106 740,106" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="636" y="100" font-size="10.5" fill="#555">safety language</text>
+<polyline points="870,106 962,106" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<polyline points="655,221 740,221" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="668" y="215" font-size="10.5" fill="#555">clean</text>
+<polyline points="870,221 915,221" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<polyline points="1045,221 1090,221" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<polyline points="1220,221 1312,221" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<polyline points="630,246 630,336 740,336" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="636" y="330" font-size="10.5" fill="#555">no serial</text>
+<polyline points="870,336 962,336" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<polyline points="630,246 630,451 740,451" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="636" y="445" font-size="10.5" fill="#555">exception or low</text>
+<text x="636" y="457" font-size="10.5" fill="#555">confidence</text>
+<polyline points="870,451 962,451" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<polyline points="630,246 630,566 740,566" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="636" y="560" font-size="10.5" fill="#555">not an RMA</text>
+<polyline points="870,566 962,566" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<circle cx="105" cy="221" r="18" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<text x="105" y="253" font-size="10.5" text-anchor="middle" fill="#333">Support email</text>
+<text x="105" y="265" font-size="10.5" text-anchor="middle" fill="#333">arrives</text>
+<rect x="215" y="185" width="130" height="72" rx="9" fill="#e6f0fc" stroke="#222" stroke-width="1.3"/>
+<text x="222" y="198" font-size="9" fill="#666">automated</text>
+<text x="280" y="218" font-size="11" text-anchor="middle" fill="#111">AI agent reads the</text>
+<text x="280" y="232" font-size="11" text-anchor="middle" fill="#111">email (EN or FR)</text>
+<rect x="390" y="185" width="130" height="72" rx="9" fill="#e8f6ee" stroke="#222" stroke-width="1.3"/>
+<text x="397" y="198" font-size="9" fill="#666">rule</text>
+<text x="455" y="212" font-size="11" text-anchor="middle" fill="#111">Check serial, owner</text>
+<text x="455" y="225" font-size="11" text-anchor="middle" fill="#111">and warranty in ERP</text>
+<text x="455" y="238" font-size="11" text-anchor="middle" fill="#111">(read-only)</text>
+<path d="M630,196 L655,221 L630,246 L605,221 z" fill="#fff" stroke="#222" stroke-width="1.5"/><path d="M621,212 L639,230 M639,212 L621,230" stroke="#222" stroke-width="2.5"/>
+<text x="601" y="192" font-size="11" text-anchor="end" fill="#111" font-weight="600">Route</text>
+<rect x="740" y="70" width="130" height="72" rx="9" fill="#fff4df" stroke="#222" stroke-width="1.3"/>
+<text x="747" y="83" font-size="9" fill="#666">person</text>
+<text x="805" y="104" font-size="11" text-anchor="middle" fill="#111">Engineering on-call</text>
+<text x="805" y="116" font-size="11" text-anchor="middle" fill="#111">responds (human)</text>
+<circle cx="980" cy="106" r="18" fill="#fff" stroke="#222" stroke-width="3.5"/>
+<text x="980" y="138" font-size="10.5" text-anchor="middle" fill="#333">Escalated</text>
+<rect x="740" y="185" width="130" height="72" rx="9" fill="#e6f0fc" stroke="#222" stroke-width="1.3"/>
+<text x="747" y="198" font-size="9" fill="#666">automated</text>
+<text x="805" y="225" font-size="11" text-anchor="middle" fill="#111">Draft RMA in ERP</text>
+<rect x="915" y="185" width="130" height="72" rx="9" fill="#fff4df" stroke="#222" stroke-width="1.3"/>
+<text x="922" y="198" font-size="9" fill="#666">person</text>
+<text x="980" y="218" font-size="11" text-anchor="middle" fill="#111">Approve RMA, one</text>
+<text x="980" y="232" font-size="11" text-anchor="middle" fill="#111">click (RMA desk)</text>
+<rect x="1090" y="185" width="130" height="72" rx="9" fill="#e6f0fc" stroke="#222" stroke-width="1.3"/>
+<text x="1097" y="198" font-size="9" fill="#666">automated</text>
+<text x="1155" y="225" font-size="11" text-anchor="middle" fill="#111">Email RMA number</text>
+<circle cx="1330" cy="221" r="18" fill="#fff" stroke="#222" stroke-width="3.5"/>
+<text x="1330" y="253" font-size="10.5" text-anchor="middle" fill="#333">RMA issued</text>
+<rect x="740" y="300" width="130" height="72" rx="9" fill="#e6f0fc" stroke="#222" stroke-width="1.3"/>
+<text x="747" y="313" font-size="9" fill="#666">automated</text>
+<text x="805" y="327" font-size="11" text-anchor="middle" fill="#111">Send serial request</text>
+<text x="805" y="340" font-size="11" text-anchor="middle" fill="#111">in the customer's</text>
+<text x="805" y="353" font-size="11" text-anchor="middle" fill="#111">language</text>
+<circle cx="980" cy="336" r="18" fill="#fff" stroke="#222" stroke-width="3.5"/>
+<text x="980" y="368" font-size="10.5" text-anchor="middle" fill="#333">Reply re-enters as</text>
+<text x="980" y="380" font-size="10.5" text-anchor="middle" fill="#333">a new email</text>
+<rect x="740" y="415" width="130" height="72" rx="9" fill="#fff4df" stroke="#222" stroke-width="1.3"/>
+<text x="747" y="428" font-size="9" fill="#666">person</text>
+<text x="805" y="448" font-size="11" text-anchor="middle" fill="#111">RMA desk reviews</text>
+<text x="805" y="462" font-size="11" text-anchor="middle" fill="#111">exception (human)</text>
+<circle cx="980" cy="451" r="18" fill="#fff" stroke="#222" stroke-width="3.5"/>
+<text x="980" y="483" font-size="10.5" text-anchor="middle" fill="#333">Handled by desk</text>
+<rect x="740" y="530" width="130" height="72" rx="9" fill="#e6f0fc" stroke="#222" stroke-width="1.3"/>
+<text x="747" y="543" font-size="9" fill="#666">automated</text>
+<text x="805" y="564" font-size="11" text-anchor="middle" fill="#111">Forward to sales or</text>
+<text x="805" y="576" font-size="11" text-anchor="middle" fill="#111">billing</text>
+<circle cx="980" cy="566" r="18" fill="#fff" stroke="#222" stroke-width="3.5"/>
+<text x="980" y="598" font-size="10.5" text-anchor="middle" fill="#333">Forwarded</text>
+<g font-size="10.5" fill="#333"><rect x="20" y="640.0" width="14" height="10" fill="#fff4df" stroke="#222"/><text x="40" y="650.0">person</text><rect x="100" y="640.0" width="14" height="10" fill="#e6f0fc" stroke="#222"/><text x="120" y="650.0">automated</text><rect x="200" y="640.0" width="14" height="10" fill="#e8f6ee" stroke="#222"/><text x="220" y="650.0">business rule</text></g>
+</svg>

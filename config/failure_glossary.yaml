@@ -1,0 +1,10 @@
+# Failure vocabulary from the repair bench and parts catalog, English and French.
+# Maintained by repair engineering; reviewed quarterly. The agent uses it before the model:
+# exactly one category matched -> that category; none or several -> the model decides.
+PSU: [psu, power supply, power supplies, alimentation, alimentations, bloc d'alimentation]
+MEMORY: [dimm, ram, ecc, memory, mémoire, barrette, barrettes]
+STORAGE: [nvme, ssd, drive, disk, raid, disque, disques, baie]
+MOTHERBOARD: [motherboard, mainboard, system board, cpu socket, bmc, carte mère, socket]
+COOLING: [fan, fans, thermal, overheating, coolant, immersion, ventilateur, ventilation, surchauffe, thermique, liquide]
+NETWORK: [nic, network card, network, link, port, carte réseau, réseau, lien, mellanox, 100g]
+DOA: [doa, dead on arrival, out of the box, brand new, just received, new delivery, hors service, neuf, neuve, reçu]
